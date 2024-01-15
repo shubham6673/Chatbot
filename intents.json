@@ -1,0 +1,179 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hello", "Hi there", "Hey", "Good day"],
+      "responses": ["Hello! Welcome to Garam Chai. How can I assist you today?", "Hi there! Ready to order some delightful treats from Garam Chai?"]
+    },
+    {
+      "tag": "menu_inquiry_tea",
+      "patterns": ["What types of tea do you offer?", "Tell me about your tea options.", "What flavors of tea do you have?"],
+      "responses": ["We offer a variety of teas, including Rose, Ilaichi, Adrak, Paan, and Regular. All teas are priced at Rs 20. Which one would you like to try?"]
+    },
+    {
+      "tag": "menu_inquiry_coffee",
+      "patterns": ["Do you serve coffee?", "Tell me about your coffee options.", "Hot or cold coffee?"],
+      "responses": ["Certainly! We have both hot and cold coffee available, priced at Rs 20. What's your preference?"]
+    },
+    {
+      "tag": "menu_inquiry_pizza",
+      "patterns": ["What kind of pizzas do you have?", "Tell me about your pizza options.", "Do you have vegetarian pizzas?"],
+      "responses": ["We have a delicious veg pizza with toppings like onion, capsicum, and corn, priced at Rs 50. Would you like to order one?"]
+    },
+    {
+      "tag": "order_confirmation_pizza",
+      "patterns": ["Yes", "Sure", "I'd like to order the veg pizza."],
+      "responses": ["Great choice! Please confirm your order, and don't forget to include your delivery address."]
+    },
+    {
+      "tag": "menu_inquiry_sandwich",
+      "patterns": ["What types of sandwiches do you offer?", "Tell me about your sandwich options.", "Grilled or regular sandwich?"],
+      "responses": ["We have Grilled Mix Veg sandwiches and Regular sandwiches on our menu, priced at Rs 30. Which one are you in the mood for?"]
+    },
+    {
+      "tag": "order_confirmation_sandwich",
+      "patterns": ["Yes", "Sure", "I'd like to order the Grilled Mix Veg sandwich."],
+      "responses": ["Fantastic choice! Please confirm your order, and don't forget to include your delivery address."]
+    },
+    {
+      "tag": "order_placement_tea",
+      "patterns": ["I'd like to order tea.", "Can I get some tea, please?", "I want to try your tea options."],
+      "responses": ["Great choice! Please provide your address, and we'll deliver your selected tea to you. Each tea is priced at Rs 20."]
+    },
+    {
+      "tag": "order_confirmation_tea",
+      "patterns": ["Yes", "Sure", "I'd like to order the Rose tea."],
+      "responses": ["Excellent! Please confirm your order, and don't forget to include your delivery address."]
+    },
+    {
+      "tag": "delivery_information",
+      "patterns": ["How does the delivery work?", "What's your delivery process?", "Can you deliver to my location?"],
+      "responses": ["We offer delivery services. Please provide your address, and we'll ensure your order reaches you."]
+    },
+    {
+      "tag": "special_requests",
+      "patterns": ["Can I customize my order?", "Do you accommodate special requests?", "I have dietary restrictions. Can you help?"],
+      "responses": ["Absolutely! We can customize your order based on your preferences or dietary restrictions. Please let us know your requirements."]
+    },
+    {
+      "tag": "order_confirmation_address",
+      "patterns": ["I'd like to confirm my order.", "Order confirmed.", "Here is my delivery address."],
+      "responses": ["Thank you for confirming your order! Please provide your delivery address so we can ensure a smooth delivery process."]
+    },
+    {
+      "tag": "can_i_sit_and_dine",
+      "patterns": ["Can I sit and dine here?", "Is there seating available?", "Can I eat inside your shop?"],
+      "responses": ["Yes, absolutely! We would love to have you in the shop. Feel free to find a comfortable seat and enjoy your time with us."]
+    },
+    {
+      "tag": "options_for_eating",
+      "patterns": ["Do you have options for eating here?", "Can I dine in?", "Is there a place to eat at your shop?"],
+      "responses": ["Certainly! Along with our delightful teas, you can enjoy our delicious pizzas and sandwiches right here at our cozy shop."]
+    },
+    {
+      "tag": "closing_thank_you",
+      "patterns": ["Thank you", "Thanks for your help", "Appreciate it"],
+      "responses": ["You're welcome! If you have any more questions or need assistance, feel free to ask. Enjoy your order from Garam Chai!"]
+    },
+    {
+      "tag": "opening_hours",
+      "patterns": ["What are your opening hours?", "When do you open?", "Tell me your business hours."],
+      "responses": ["We are open from 8 AM to 8 PM every day."]
+    },
+    {
+      "tag": "payment_methods",
+      "patterns": ["What payment methods do you accept?", "Can I pay with a credit card?", "Do you accept cash?"],
+      "responses": ["We accept cash, credit cards, and online payments through our secure portal."]
+    },
+    {
+      "tag": "delivery_time",
+      "patterns": ["How long does delivery take?", "What's the average delivery time?", "When can I expect my order?"],
+      "responses": ["Delivery times vary based on location. On average, it takes 30-45 minutes."]
+    },
+    {
+      "tag": "discounts_promotions",
+      "patterns": ["Do you have any discounts or promotions?", "Are there any special offers?", "Tell me about your loyalty program."],
+      "responses": ["Yes, we have ongoing discounts and promotions. Check our website for the latest offers."]
+    },
+    {
+      "tag": "order_status",
+      "patterns": ["Can I check the status of my order?", "How do I track my delivery?", "Where is my food?"],
+      "responses": ["You can track your order through our website or contact our customer support for assistance."]
+    },
+    {
+      "tag": "menu_recommendation",
+      "patterns": ["What's your most popular item?", "Can you recommend something from the menu?", "What do customers love the most?"],
+      "responses": ["Our most popular item is the Rose Tea and Grilled Mix Veg Sandwich. Customers rave about them!"]
+    },
+    {
+      "tag": "allergies_dietary_restrictions",
+      "patterns": ["Do you accommodate allergies?", "Are your products suitable for vegetarians?", "I have a gluten intolerance. Can I still order?"],
+      "responses": ["Yes, we can accommodate allergies and dietary restrictions. Please inform us when placing your order."]
+    },
+    {
+      "tag": "feedback",
+      "patterns": ["How can I provide feedback?", "Can I leave a review?", "I want to share my experience."],
+      "responses": ["We appreciate your feedback! You can leave a review on our website or contact us directly."]
+    },
+    {
+      "tag": "loyalty_program",
+      "patterns": ["Tell me about your loyalty program.", "How can I join your rewards program?", "Are there benefits for frequent customers?"],
+      "responses": ["Our loyalty program offers exclusive discounts and rewards for our valued customers. Joining is easy!"]
+    },
+    {
+      "tag": "availability_out_of_stock",
+      "patterns": ["Is everything on the menu available?", "Do you have any items out of stock?", "What's currently unavailable?"],
+      "responses": ["We strive to keep all items available, but occasionally, some items may be temporarily out of stock. We apologize for any inconvenience."]
+    },
+    {
+      "tag": "holiday_schedule",
+      "patterns": ["Are you open on holidays?", "What's your schedule during holidays?", "Can I order on public holidays?"],
+      "responses": ["Our holiday schedule may vary. Please check our website or contact us for specific information on holiday hours."]
+    },
+    {
+      "tag": "vegan_options",
+      "patterns": ["Do you have vegan options?", "Are any of your products vegan?", "Tell me about your vegan-friendly items."],
+      "responses": ["Yes, we have vegan options available, including vegan sandwiches and teas."]
+    },
+    {
+      "tag": "bulk_orders",
+      "patterns": ["Can I place a bulk order?", "Do you offer catering services?", "I need to order for a large group."],
+      "responses": ["Certainly! We offer catering services, and you can place bulk orders. Contact us in advance for special arrangements."]
+    },
+    {
+      "tag": "pickup_option",
+      "patterns": ["Can I pick up my order?", "Do you offer a pickup option?", "Is there a takeaway service?"],
+      "responses": ["Yes, we offer a pickup option. You can place your order online and pick it up at our location."]
+    },
+    {
+      "tag": "wifi_access",
+      "patterns": ["Is there Wi-Fi available in your shop?", "Can I access Wi-Fi while at your establishment?", "Do you provide free internet?"],
+      "responses": ["Yes, we provide complimentary Wi-Fi for our customers. Feel free to ask our staff for the access details."]
+    },
+    {
+      "tag": "lost_found_items",
+      "patterns": ["I think I left something at your shop. Can you help?", "Is there a lost and found service?", "I lost an item during my visit."],
+      "responses": ["We have a lost and found service. Please describe the lost item, and we'll do our best to assist you."]
+    },
+    {
+      "tag": "events_special_occasions",
+      "patterns": ["Do you host events or special occasions?", "Can I book your venue for a private event?", "Tell me about your event hosting services."],
+      "responses": ["Yes, we host events and special occasions. Contact us for details on booking our venue for your private event."]
+    },
+    {
+      "tag": "loyal_customer_rewards",
+      "patterns": ["How do I become a loyal customer?", "Tell me about rewards for frequent customers.", "Are there benefits for regular patrons?"],
+      "responses": ["Becoming a loyal customer is easy! Join our rewards program, and enjoy exclusive benefits with each visit."]
+    },
+    {
+      "tag": "website_support",
+      "patterns": ["I'm having trouble with your website. Can you help?", "Is there customer support for your online platform?", "Tell me about website assistance."],
+      "responses": ["We apologize for any inconvenience. Please contact our customer support for assistance with any website-related issues."]
+    },
+    {
+      "tag": "kid_friendly_options",
+      "patterns": ["Do you have kid-friendly options?", "Are there items suitable for children on the menu?", "Tell me about your offerings for kids."],
+      "responses": ["Yes, we have kid-friendly options on our menu, including special treats that children love."]
+    }
+  ]
+}
